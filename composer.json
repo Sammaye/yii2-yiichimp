@@ -1,0 +1,19 @@
+{
+    "name": "sammaye/yii2-yiichimp",
+    "description": "A Yii2 ext for the MailChimp 3.0 API",
+    "type": "yii2-extension",
+    "keywords": ["sammaye", "yii2", "extension", "yii2-extension", "Yii2 Extension", "MailChimp", "mailchimp"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Sammaye",
+            "homepage": "http://sammaye.wordpress.com"
+        }
+    ],
+    "require": {
+        "sammaye/mailchimp": "^1.0"
+    },
+    "autoload": {
+        "psr-4": { "sammaye\\yiichimp\\": "" }
+    }
+}
