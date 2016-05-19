@@ -23,9 +23,3 @@ and you are ready to use it like so:
     var_dump(Yii::$app->mailchimp->get('/lists/9dd4930fe0/members/' . md5(strtolower('sammaye@flyingunicorns.com'))));
 
 Please refer to MailChimp's own documentation for all other uses: [http://developer.mailchimp.com/documentation/mailchimp/reference/overview/](http://developer.mailchimp.com/documentation/mailchimp/reference/overview/)
-
-## Error Handler
-
-I have implemented every exception as a class name which extends the base `MailChimpException`.
-
-This will make it easier to detect specific errors but also if you wish to catch any errors this API may bring up then you need to catch the `MailChimpException`.
