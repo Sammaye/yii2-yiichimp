@@ -7,7 +7,7 @@ This is so simple anyone can use it!
 
 Simply `require` it with composer like so:
 
-    composer require sammaye/yiichimp:"^1.0"
+    composer require "sammaye/yiichimp":"^1.0"
 
 ## How To Use
 
